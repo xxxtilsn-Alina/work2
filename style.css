@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-menu {
+  width: 380px;
+  background-color: #a3b2bb;
+  border-radius: 15px;
+  padding: 25px 20px 50px 20px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.title {
+  margin-bottom: 35px;
+  color: white;
+}
+
+.credit {
+  height: 280px;
+  background-color: #191e2a;
+  border-radius: 15px;
+  width: 380px;
+  position: relative;
+  left: 100px;
+  margin-bottom: 50px;
+}
+
+.credit-card {
+  width: 90px;
+  position: absolute;
+  right: 22px;
+  bottom: 22px;
+}
+
+.btn {
+  background-color: #191e2a;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  padding: 18px 10px;
+  border-radius: 15px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #373e4c;
+}
+
+.credit-title {
+  color: white;
+  position: relative;
+  top: 45px;
+  left: 35px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.name {
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 35px;
+}
+
+.date {
+  color: white;
+  position: absolute;
+  bottom: 65px;
+  left: 35px;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.code {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 200;
+  position: absolute;
+  bottom: 100px;
+  left: 35px;
+}
